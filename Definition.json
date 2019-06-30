@@ -1,0 +1,184 @@
+{
+  "_id": "Ice Giants",
+  "Uranus": {
+    "equatorialRadius": {
+      "$numberInt": "25560"
+    },
+    "earthMasses": {
+      "$numberDouble": "14.6"
+    },
+    "earthVolumes": {
+      "$numberInt": "67"
+    },
+    "density": {
+      "$numberDouble": "1.29"
+    },
+    "albedo": {
+      "$numberDouble": "0.51"
+    },
+    "moons": {
+      "$numberInt": "29"
+    },
+    "solarDiameter": {
+      "$numberDouble": "1.7"
+    },
+    "solarMagnitude": {
+      "$numberDouble": "-20.2"
+    },
+    "surfaceGravity": {
+      "$numberDouble": "7.77"
+    },
+    "polarCompression": {
+      "$numberDouble": "0.03"
+    },
+    "orbit": {
+      "rotation": {
+        "$numberDouble": "84.1"
+      },
+      "revolution": {
+        "$numberDouble": "17.9"
+      },
+      "inclination": {
+        "toEcliptic": {
+          "$numberDouble": "0.774"
+        },
+        "toEquator": {
+          "$numberDouble": "97.9"
+        }
+      },
+      "distance": {
+        "fromEarth": {
+          "$numberDouble": "2.719"
+        },
+        "fromSun": {
+          "$numberDouble": "2.871"
+        },
+        "aphelion": {
+          "$numberDouble": "2.735"
+        },
+        "perihelion": {
+          "$numberDouble": "3.004"
+        }
+      },
+      "eccentricity": {
+        "$numberDouble": "0.046"
+      },
+      "velocity": {
+        "$numberDouble": "6.8"
+      }
+    },
+    "atmosphere": {
+      "pressure": {
+        "$numberInt": "120000"
+      },
+      "temperature": {
+        "$numberInt": "-193"
+      }
+    },
+    "chemistry": {
+      "clouds": [
+        "Hydrogen",
+        "Helium",
+        "Methane"
+      ],
+      "mantle": [
+        "Water",
+        "Ammonia",
+        "Methane"
+      ],
+      "core": [
+        "Silicates"
+      ]
+    }
+  },
+  "Neptune": {
+    "equatorialRadius": {
+      "$numberInt": "24746"
+    },
+    "earthMasses": {
+      "$numberDouble": "17.2"
+    },
+    "earthVolumes": {
+      "$numberInt": "57"
+    },
+    "density": {
+      "$numberDouble": "1.64"
+    },
+    "albedo": {
+      "$numberDouble": "0.41"
+    },
+    "moons": {
+      "$numberInt": "13"
+    },
+    "solarDiameter": {
+      "$numberDouble": "1.1"
+    },
+    "solarMagnitude": {
+      "$numberDouble": "-19.3"
+    },
+    "surfaceGravity": {
+      "$numberInt": "11"
+    },
+    "polarCompression": {
+      "$numberDouble": "0.03"
+    },
+    "orbit": {
+      "rotation": {
+        "$numberDouble": "16.11"
+      },
+      "revolution": {
+        "$numberDouble": "164.79"
+      },
+      "inclination": {
+        "toEcliptic": {
+          "$numberDouble": "1.774"
+        },
+        "toEquator": {
+          "$numberDouble": "28.8"
+        }
+      },
+      "distance": {
+        "fromEarth": {
+          "$numberDouble": "4.347"
+        },
+        "fromSun": {
+          "$numberDouble": "4.504"
+        },
+        "aphelion": {
+          "$numberDouble": "4.537"
+        },
+        "perihelion": {
+          "$numberDouble": "4.456"
+        }
+      },
+      "eccentricity": {
+        "$numberDouble": "0.0097"
+      },
+      "velocity": {
+        "$numberDouble": "5.45"
+      }
+    },
+    "atmosphere": {
+      "pressure": {
+        "$numberDouble": "3333.33"
+      },
+      "temperature": {
+        "$numberInt": "-173"
+      }
+    },
+    "chemistry": {
+      "clouds": [
+        "Hydrogen Sulfide",
+        "Methane"
+      ],
+      "mantle": [
+        "Water",
+        "Ammonia",
+        "Methane"
+      ],
+      "core": [
+        "Silicates"
+      ]
+    }
+  }
+}
