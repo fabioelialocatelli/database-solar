@@ -182,3 +182,100 @@
     }
   }
 }
+
+{
+  "_id": "Gas Giants",
+  "Jupiter": {
+    "equatorialRadius": {
+      "$numberInt": "71492"
+    },
+    "earthMasses": {
+      "$numberInt": "317938"
+    },
+    "earthVolumes": {
+      "$numberInt": "1316"
+    },
+    "density": {
+      "$numberDouble": "1.33"
+    },
+    "albedo": {
+      "$numberDouble": "0.52"
+    },
+    "moons": {
+      "$numberInt": "63"
+    },
+    "solarDiameter": {
+      "$numberDouble": "6.2"
+    },
+    "solarMagnitude": {
+      "$numberDouble": "-23.1"
+    },
+    "surfaceGravity": {
+      "$numberDouble": "22.87"
+    },
+    "polarCompression": {
+      "$numberDouble": "0.061"
+    },
+    "orbit": {
+      "rotation": {
+        "$numberDouble": "9.84"
+      },
+      "revolution": {
+        "$numberDouble": "11.86"
+      },
+      "inclination": {
+        "toEcliptic": {
+          "$numberDouble": "1.308"
+        },
+        "toEquator": {
+          "$numberDouble": "25.18"
+        }
+      },
+      "distance": {
+        "fromEarth": {
+          "$numberDouble": "628.8"
+        },
+        "fromSun": {
+          "$numberDouble": "778.4"
+        },
+        "aphelion": {
+          "$numberDouble": "815.7"
+        },
+        "perihelion": {
+          "$numberDouble": "740.9"
+        }
+      },
+      "eccentricity": {
+        "$numberDouble": "0.0483"
+      },
+      "velocity": {
+        "$numberDouble": "13.1"
+      }
+    },
+    "atmosphere": {
+      "pressure": {
+        "$numberInt": "70000"
+      },
+      "temperature": {
+        "$numberInt": "-121"
+      }
+    },
+    "chemistry": {
+      "clouds": [
+        "Hydrogen",
+        "Helium",
+        "Ammonia",
+        "Sulphur",
+        "Methane"
+      ],
+      "mantle": [
+        "Hydrogen",
+        "Helium"
+      ],
+      "core": [
+        "Iron Silicates"
+      ]
+    }
+  },
+  "Saturn": {}
+}

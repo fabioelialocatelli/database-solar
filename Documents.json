@@ -1,0 +1,52 @@
+{
+  "_id": "Gas Giants",
+  "Jupiter": {
+    "equatorialRadius": 71492,
+    "earthMasses": 317938,
+    "earthVolumes": 1316,
+    "density": 1.33,
+    "albedo": 0.52,
+    "moons": 63,
+    "solarDiameter": 6.2,
+    "solarMagnitude": -23.1,
+    "surfaceGravity": 22.87,
+    "polarCompression": 0.061,
+    "orbit": {
+      "rotation": 9.84,
+      "revolution": 11.86,
+      "inclination": {
+        "toEcliptic": 1.308,
+        "toEquator": 25.18
+      },
+      "distance": {
+        "fromEarth": 628.8,
+        "fromSun": 778.4,
+        "aphelion": 815.7,
+        "perihelion": 740.9
+      },
+      "eccentricity": 0.0483,
+      "velocity": 13.1
+    },
+    "atmosphere": {
+      "pressure": 70000,
+      "temperature": -121
+    },
+    "chemistry": {
+      "clouds": [
+        "Hydrogen",
+        "Helium",
+        "Ammonia",
+        "Sulphur",
+        "Methane"
+      ],
+      "mantle": [
+        "Hydrogen",
+        "Helium"
+      ],
+      "core": [
+        "Iron Silicates"
+      ]
+    }
+  },
+  "Saturn": {}
+}
